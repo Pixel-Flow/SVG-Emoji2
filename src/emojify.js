@@ -18,7 +18,7 @@ var emojify = function(text) {
 	// Frowning Slightly
 	newText = newText.replaceAll(':(', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/frown.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
 	newText = newText.replaceAll(':frowning2:', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/frown.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
-	newText = newText.replaceAll('☹', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/frown.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
+	newText = newText.replaceAll('👮', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/frown.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
 
 	// Frowning With Open Mouth
 	newText = newText.replaceAll(':frowning:', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/frown-big.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
